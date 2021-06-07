@@ -27,7 +27,7 @@ const url = 'mongodb+srv://Amina:W12fsINOhnBWWb1j@cluster0.yw2yr.mongodb.net/myF
 const database = 'multiGame'
 const myCollection = 'joueurs'
 // Ici pour chaque carte,je définis une réponse dans le tableau pour vérifier que la réponse du joueur est OK
-let answers = new Array('Je tape sur la table', 'Je tape sur la table','Je tape sur la table', 'Je tape sur la table', 'Carte Classique', 'Carte Classique', 'Bonjour Madame', 'Bonjour Madame', 'Bonjour Madame', 'Bonjour Monsieur', 'Bonjour Monsieur', 'Carte Classique', 'Révérence au roi', 'Révérence au roi', 'Carte Classique', 'Carte Classique', 'Carte Classique', 'Carte Classique')
+let answers = new Array('tap', 'tap','tap', 'tap', 'classic', 'classic', 'mme', 'mme', 'mme', 'mr', 'mr', 'classic', 'roi', 'roi', 'classic', 'classic', 'classic', 'classic')
 
 // **********************************************************************
 
