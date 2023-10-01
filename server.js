@@ -18,11 +18,11 @@ var questionImage = getRandomIndex()
 // Tableau qui contiendra tous les joueurs
 let joueurs = []
 //***** Port d'écoute de notre serveur 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 // gestion de connexion mongoclient . require npm install mongo-client
 const MongoClient = require('mongodb').MongoClient;
 // valeurs a changer : mettre url du client mongo et le nom de la database
-const url = 'mongodb+srv://Amina:W12fsINOhnBWWb1j@cluster0.yw2yr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const url = 'mongodb+srv://elkamina:pnlRCIhIFE3iIPIK@personal.vdig52l.mongodb.net/';
 //nom de la database et de la collection
 const database = 'multiGame'
 const myCollection = 'joueurs'
